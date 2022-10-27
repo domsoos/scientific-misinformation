@@ -77,7 +77,7 @@ with open("sciencealertarticles.csv") as file:
 print("total evidence: ", evidence_count)
 print("total reject: ",reject_count)
 df_articles = pd.DataFrame(dictionary)
-df_articles.to_csv('sciencealert.csv', encoding='utf-8-sig')
+df_articles.to_csv('evidencetofilter.csv', encoding='utf-8-sig')
 
 
 
